@@ -21,10 +21,11 @@ double partsum(double tosum[],int i);
 //The birth-death process is a Poisson point process simulated by means of the Gillespie algorithm 
 
 
-//This version of the source code reproduces the result of FIg. S1.B of the manuscript entitled
+//This version of the source code reproduces the result of FIg. S1.D of the manuscript entitled
 // "Survival of the densest accounts for the expansion of mitochondrial mutations in ageing", specifically of the 
 //second version of the manuscript submitted and uplodaded to bioRxiv in May 2021.
-//The initial parameter configuration reproduces the points in the red line of panel S1.B. Other lines can be reproduced
+//The initial parameter configuration reproduces the points in the red line of panel S1.D, that allows the observation of Survival of the Densest 
+//in the simplest possible systems. Green and blue can be reproduced
 //by adding preferential elimination of mutants, as explained in section SI.8. 
 
 //It might take some time (30 mins) to reproduce the results, since the final time of the simulation (final_t) is large.
@@ -53,7 +54,7 @@ realizations=1000;
 nprint= 100;
 mu=0.07; //common degradation rate
 k=mu; //hopping rate !!CHANGE ALSO IN THE FUNCTION THAT GIVES THE REPLICATION RATE!!
-epsilon=0.0;  //put the proportion of selection against mutants that you want
+epsilon=0.0;  //selection against mutants, set to zero for Fig. S1.D red line. Add selection for green and blue line as explained in SI.8 of the paper.
 delta =0.1; //pstrength of control on mutants. delta= 1 for same control on mutants and wildtypes
 srand48(12127); //set the seed for the random number generator
 
