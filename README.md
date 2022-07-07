@@ -13,5 +13,4 @@ See comments before the start of the main programme for more details.
 PYTHON NOTEBOOK
 Requires NumPy and matplotlib (for plotting). 
 
-Runninng time is heavily influenced by parameters like Nss, time of the simulation (T) and by the number of stochastic replicates of the evolution of the system (replicates).
-Running time for these parameters is for 200 replicates.
+Runninng time is heavily influenced by parameters like Nss, time of the simulation (T) and by the number of stochastic replicates of the evolution of the system (replicates). Running time for the parameters we use is ~ 3 minutes for 200 replicates on Google Colab.
