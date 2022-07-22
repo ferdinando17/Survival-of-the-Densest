@@ -1,0 +1,11 @@
+#Heteroplasmies over time and their standard deviations. Columns: t, hmean, h1, σh1,  h2, σh2. 
+ 
+#Initial condition (h1, h2 and so on) : 0.500  0.500   
+#Hopping rate Ɣ=0.035000000; selection against mutants of 0.0010000µ; δ =0.500 
+#Final time=   700,  Current number of realizations= 2000; Total number of realizations= 2000;
+    0.0000 ,     0.500000,     0.500000 ,    0.000000 ,    0.500000 ,    0.000000 ,
+  140.0000 ,     0.501366,     0.500236 ,    0.002573 ,    0.502496 ,    0.002579 ,
+  280.0000 ,     0.504775,     0.503461 ,    0.003553 ,    0.506090 ,    0.003528 ,
+  420.0000 ,     0.513082,     0.512198 ,    0.004204 ,    0.513966 ,    0.004234 ,
+  560.0000 ,     0.514555,     0.513973 ,    0.004779 ,    0.515137 ,    0.004770 ,
+  700.0000 ,     0.521229,     0.520228 ,    0.005300 ,    0.522230 ,    0.005275 ,

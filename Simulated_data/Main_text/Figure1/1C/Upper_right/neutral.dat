@@ -1,0 +1,11 @@
+#Heteroplasmiy over time in a single unit, and deviations. Columns: t, h, σh
+ 
+#Initial condition (h1 and so on) : 0.500   
+#Hopping rate Ɣ=0.000000000; selection against mutants of 0.0000000µ; δ =0.500 
+#Final time=   700,  Current number of realizations= 2000; Total number of realizations= 2000;
+    0.0000 ,     0.500000,     0.000000 ,
+  140.0000 ,     0.498382,     0.003369 ,
+  280.0000 ,     0.499441,     0.004696 ,
+  420.0000 ,     0.502329,     0.005473 ,
+  560.0000 ,     0.503896,     0.006219 ,
+  700.0000 ,     0.503004,     0.006779 ,
