@@ -1,4 +1,4 @@
-# Survival-of-the-Densest-Code
+# Code for Survival of the Densest
 Code to reproduce results presented in the work "Survival of the densest accounts for the expansion of mitochondrial mutations in ageing."
 We provide source C code, that can be used to obtain all results presented in the paper. We also provide a Python Notebook of a minimal two-unit example.
 
